@@ -40,3 +40,5 @@ java -Djavax.net.ssl.keyStore=keystore_servidor.jks -Djavax.net.ssl.keyStorePass
 Esto para especificarle las keystores, junto con las contraseñas y el programa pueda usarlas para establecer la conexión segura.
 
 Importante: Al final tiene un "#", es el número del nodo, en este caso puede variar de 0 a 5.
+
+Nota: En Windows puede que el comando java -Djavax no pueda ejecutarse en **_PowerShell_**, sin embargo en **_CMD_** si lo ejecuta.
